@@ -15,7 +15,8 @@ public class MusicalStaff implements MusicalScore {
 
     @Override
     public void draw() {
-        System.out.println("Drawn a stuff, " + measureCount + " measures. Staff: " + staffGraphics);
+        System.out.println("Drawn a stuff, " + measureCount + " measures. Staff: " + staffGraphics +
+                ". Hash " + this.hashCode());
     }
 
     @Override
