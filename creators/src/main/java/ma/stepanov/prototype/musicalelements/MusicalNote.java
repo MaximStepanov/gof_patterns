@@ -25,7 +25,8 @@ public class MusicalNote implements MusicalScore {
 
     @Override
     public void draw() {
-        System.out.println("Drawn a note, " + length + " length. Note: " + noteGraphics);
+        System.out.println("Drawn a note, " + length + " length. Note: " + noteGraphics +
+                ". Hash " + this.hashCode());
     }
 
     @Override
