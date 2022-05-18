@@ -3,12 +3,10 @@ package ma.stepanov.brigde.shop;
 import ma.stepanov.brigde.instrument.AcousticGuitar;
 import ma.stepanov.brigde.instrument.InstrumentImplementation;
 
-public class YamahaShop implements ShopAbstraction {
-
-    private final InstrumentImplementation instrument;
+public class YamahaShop extends ShopAbstraction {
 
     public YamahaShop(InstrumentImplementation instrument) {
-        this.instrument = instrument;
+        super(instrument);
     }
 
     @Override
